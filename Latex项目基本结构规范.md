@@ -7,8 +7,8 @@ latex_project/                 # 项目根目录
 │   ├── settings.tex           # 页面布局/字体等设置
 │   └── commands.tex           # 自定义命令
 ├── chapter/                   # 章节内容
-│   ├── chapter01.tex          # 第1章
-│   ├── chapter02.tex          # 第2章
+│   ├── c1.tex          # 第1章
+│   ├── c2.tex          # 第2章
 │   └── ...
 ├── misc/                      # 杂项内容
 │   ├── abstract.tex           # 中英文摘要
