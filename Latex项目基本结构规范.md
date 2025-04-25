@@ -7,8 +7,8 @@ latex_project/                 # 项目根目录
 │   ├── settings.tex           # 页面布局/字体等设置
 │   └── commands.tex           # 自定义命令
 ├── chapter/                   # 章节内容
-│   ├── c1.tex          # 第1章
-│   ├── c2.tex          # 第2章
+│   ├── c1.tex                 # 第1章
+│   ├── c2.tex                 # 第2章
 │   └── ...
 ├── misc/                      # 杂项内容
 │   ├── abstract.tex           # 中英文摘要
@@ -25,7 +25,7 @@ latex_project/                 # 项目根目录
 │   └── ...
 ├── reference/                 # 参考文献
 │   ├── bibliography.bib       # BibTeX数据库
-│   └── bst-styles/            # 自定义引用样式
+│   └── bst_styles/            # 自定义引用样式
 └── output/                    # 编译输出（建议.gitignore）
     ├── main.pdf               # 最终PDF
     └── ...
