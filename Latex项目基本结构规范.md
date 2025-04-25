@@ -2,6 +2,7 @@
 latex_project/                 # 项目根目录
 ├── main.tex                   # 主文档入口
 ├── config/                    # 配置
+│   ├── class.cls              # 文档类定义
 │   ├── packages.tex           # 所有宏包加载
 │   ├── settings.tex           # 页面布局/字体等设置
 │   └── commands.tex           # 自定义命令
