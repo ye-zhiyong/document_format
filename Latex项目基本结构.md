@@ -1,14 +1,12 @@
 ```text
 latex_project/                 # 项目根目录
 ├── main.tex                   # 主文档入口
-├── config/                    # 配置
-│   ├── class.cls              # 文档类定义
-│   ├── packages.tex           # 所有宏包加载
-│   ├── settings.tex           # 页面布局/字体等设置
-│   └── commands.tex           # 自定义命令
+├── class.cls                  # 文档类定义（包括宏包加载、页面字体设置、自定义命令等）
+├── main.pdf                   # 输出PDF
 ├── chapter/                   # 章节内容
 │   ├── c1.tex                 # 第1章
 │   ├── c2.tex                 # 第2章
+│   ├── c3.tex                 # 第3章
 │   └── ...
 ├── misc/                      # 杂项内容
 │   ├── abstract.tex           # 中英文摘要
@@ -24,9 +22,6 @@ latex_project/                 # 项目根目录
 │   └── code/                  # 代码输出
 │   └── ...
 ├── reference/                 # 参考文献
-│   ├── bibliography.bib       # BibTeX数据库
-│   └── bst_styles/            # 自定义引用样式
-└── output/                    # 编译输出（建议.gitignore）
-    ├── main.pdf               # 最终PDF
-    └── ...
+│   ├── reference.bib          # BibTeX数据库
+│   └── reference.bst          # 自定义引用样式
 ```
